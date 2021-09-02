@@ -1,0 +1,31 @@
+/* See LICENSE file for copyright and license details. */
+
+*******************     KEYBINDS     **********************************************
+
+*************     These are hard-coded in config.h     ****************************  
+
+MODIFIERS             KEY			            FUNCTION
+
+ALT                   d			                run dmenu
+ALT                   Space                     toggle tiled/floating layout
+ALT			          Tab			            toggle between current/last view
+
+ALT                   Left mouse-click          Move floating window
+ALT                   Right mouse-click         Resize floating window
+
+ALT			          {1...9}		            switch to numbered view
+ALT|SHIFT     	      {1...9}                   move window to numbered view
+
+ALT                   v                         view all windows
+ALT                   t                         tag all views with this window
+
+ALT                   q			                quit focused window
+ALT                   m      		            move window from stack to master
+
+ALT                   j			                focus window clockwise
+ALT                   k			                focus window counterclockwise
+
+ALT                   F9                        raise volume
+ALT                   F10                       lower volume
+ALT                   F11                       mute sound
+ALT                   F12			            quit session
