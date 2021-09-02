@@ -10,6 +10,12 @@ To install the pre-requisites in Ubuntu-based distros, enter the following comma
 sudo apt install libx11-dev libxft-dev libxinerama-dev lxappearance suckless-tools dmenu
 ```
 
+To install the specific programs used in my set-up
+
+```
+sudo apt install firefox thunar xfce4-terminal xfce4-screenshooter 
+```
+
 ## Build process
 
 1. Clone or download this repo and cd into the folder.
