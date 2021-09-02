@@ -1,6 +1,6 @@
 # Minimal-DWM-Build
 
-A very minimal dwm set up to build from source
+A very minimal dwm set up to build from source.
 
 ## By the way, I'm not using Arch
 
