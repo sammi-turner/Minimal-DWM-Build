@@ -27,40 +27,10 @@ sudo make clean install
 ```
 6. Log out of your session and when you log back in, select 'DWM Session' from the menu rather than your default file manager.
 
-## Keybinds
+## Cheat sheet
 
-I have hard-coded the following keybinds in config.h, which are listed in the 'cheat-sheet.txt' file in this repo. The config.def.h file shows the default settings for dwm.
-
-```
-MODIFIERS             KEY			                  FUNCTION
-
-ALT                   d			                    run dmenu
-ALT                   Space                     toggle tiled/floating layout
-ALT			              Tab			                  toggle between current/last view
-
-ALT                   Left mouse-click          move floating window
-ALT                   Right mouse-click         resize floating window
-
-ALT			              {1...9}		                switch to numbered view
-ALT|SHIFT     	      {1...9}                   move window to numbered view
-
-ALT                   v                         view all windows
-ALT                   t                         tag all views with this window
-
-ALT                   q			                    quit focused window
-ALT                   m      		                move window from stack to master
-
-ALT                   j			                    focus window clockwise
-ALT                   k			                    focus window counterclockwise
-
-ALT                   F9                        raise volume
-ALT                   F10                       lower volume
-ALT                   F11                       mute sound
-ALT                   F12			                  quit session
-```
+I have hard-coded some keybinds in config.h, which are listed in the 'cheat-sheet.txt' file in this repo. The config.def.h file shows the default settings for dwm.
 
 ## Changing your config.h
 
 To change the default keybinds, change the default keybinds, recompile dwm, log out and back in.
-
-
