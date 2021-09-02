@@ -39,7 +39,7 @@ The default gtk and icon themes are awful, but can easily be changed. Type 'lxap
 
 ## Cheat sheet
 
-I have hard-coded some keybinds in config.h, which are listed in the 'cheat-sheet.png' file. The config.def.h file shows the default settings for dwm.
+I have hard-coded some keybinds in config.h, which are listed in the 'cheat-sheet.png' file. The 'config.def.h' file shows the default settings for dwm.
 
 ## Changing your config.h
 
