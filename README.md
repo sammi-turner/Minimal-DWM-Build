@@ -31,6 +31,7 @@ sudo make clean install
 
 I have hard-coded the following keybinds in config.h, which are listed in the 'cheat-sheet.txt' file in this repo. The config.def.h file shows the default settings for dwm.
 
+```
 MODIFIERS             KEY			                  FUNCTION
 
 ALT                   d			                    run dmenu
@@ -56,6 +57,7 @@ ALT                   F9                        raise volume
 ALT                   F10                       lower volume
 ALT                   F11                       mute sound
 ALT                   F12			                  quit session
+```
 
 ## Changing your config.h
 
