@@ -33,13 +33,13 @@ sudo make clean install
 ```
 6. Log out of your session and when you log back in, select 'DWM Session' from the menu rather than your default file manager.
 
-## Change themes and icons with Lxappearance
+## Change themes and icons with lxappearance
 
-The default gtk and icon themes are awful, but can easily be changed. Type in 'lxappearance' into dmenu to launch a graphical tool to change your settings. Personally, I use the materia-dark-compact theme and the papirus-dark icons. See the screenshot included in this repo.
+The default gtk and icon themes are awful, but can easily be changed. Type 'lxappearance' into dmenu to launch a graphical tool to change your settings. Personally, I use the materia-dark-compact theme and the papirus-dark icons. I have included a screenshot example.
 
 ## Cheat sheet
 
-I have hard-coded some keybinds in config.h, which are listed in the 'cheat-sheet.png' file in this repo. The config.def.h file shows the default settings for dwm.
+I have hard-coded some keybinds in config.h, which are listed in the 'cheat-sheet.png' file. The config.def.h file shows the default settings for dwm.
 
 ## Changing your config.h
 
