@@ -30,7 +30,7 @@ To install the specific programs used in my set-up
 sudo apt install firefox thunar xfce4-terminal xfce4-screenshooter 
 ```
 
-## Build process
+## Build process with xfce4 already installed
 
 1. Clone or download this repo and cd into the folder.
 2. Set permissions on 'DWM.desktop' and 'Makefile' to allow execution using either the command line or the right-click menu in your graphical file manager.
