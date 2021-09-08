@@ -7,7 +7,7 @@ A very minimal [dwm](https://dwm.suckless.org/) set up to build from source.
 To install the dependencies in Arch-based distros, enter the following command
 
 ```
-sudo pacman -S libx11, libxft, libxinerama lxappearance dmenu
+sudo pacman -S libx11 libxft libxinerama lxappearance dmenu
 ```
 
 To install the specific programs used in my set-up
