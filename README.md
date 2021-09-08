@@ -2,7 +2,21 @@
 
 A very minimal [dwm](https://dwm.suckless.org/) set up to build from source.
 
-## By the way, I'm not using Arch
+## By the way, I use Arch
+
+To install the dependencies in Arch-based distros, enter the following command
+
+```
+sudo pacman -S libx11, libxft, libxinerama lxappearance dmenu
+```
+
+To install the specific programs used in my set-up
+
+```
+sudo pacman -S firefox thunar xfce4-terminal xfce4-screenshooter
+```
+
+# By the way, I'm not using Arch
 
 To install the dependencies in Ubuntu-based distros, enter the following command
 
