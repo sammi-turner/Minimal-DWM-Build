@@ -47,6 +47,8 @@ I have hard-coded some keybinds in config.h, which are shown in the 'cheat-sheet
 
 To change the default keybinds, change the 'config.h' file, recompile dwm, log out, and then log back in.
 
-## Applying patches
+## No clock, calendar or volume control?
 
-To apply suckless patches to change the default behaviour of dwm, or to run external scripts, [please see the official docs](https://dwm.suckless.org/patches/) for more information.
+Nah. I don't really need them.
+
+If you want to run external scripts, then you might be better off starting with the [official default build](https://dwm.suckless.org/) and customising with patches from there.
