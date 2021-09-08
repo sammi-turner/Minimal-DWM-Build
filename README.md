@@ -58,3 +58,7 @@ I have hard-coded some keybinds in config.h, which are shown in the 'cheat-sheet
 ## Changing your config.h
 
 To change the default keybinds, change the 'config.h' file, recompile dwm, log out, and then log back in.
+
+## Applying patches
+
+To apply official suckless patches to change the default behaviour of dwm, or to run external scripts, [please see the official docs](https://dwm.suckless.org/patches/) for more information.
