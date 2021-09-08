@@ -61,4 +61,4 @@ To change the default keybinds, change the 'config.h' file, recompile dwm, log o
 
 ## Applying patches
 
-To apply official suckless patches to change the default behaviour of dwm, or to run external scripts, [please see the official docs](https://dwm.suckless.org/patches/) for more information.
+To apply suckless patches to change the default behaviour of dwm, or to run external scripts, [please see the official docs](https://dwm.suckless.org/patches/) for more information.
