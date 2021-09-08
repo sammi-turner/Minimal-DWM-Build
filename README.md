@@ -49,7 +49,7 @@ sudo make clean install
 
 ## Change themes and icons with lxappearance
 
-The default gtk and icon themes are ugly, but they can easily be changed. Type 'lxappearance' into dmenu to launch a graphical tool to change your settings. Personally, I use the materia-dark-compact theme and the papirus-dark icons. I have included an example screenshot.
+The default gtk and icon themes are ugly, but they can easily be changed. Type 'lxappearance' into dmenu to launch a graphical tool to change your settings. Personally, I use the materia-dark-compact theme and the papirus-dark icons.
 
 ## Keybinds
 
