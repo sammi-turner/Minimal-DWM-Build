@@ -10,7 +10,7 @@ To install the dependencies in Arch-based distros, enter the following
 sudo pacman -S libx11 libxft libxinerama lxappearance dmenu firefox
 ```
 
-# By the way, I'm not using Arch
+## By the way, I'm not using Arch
 
 To install the dependencies in Ubuntu-based distros, enter the following
 
