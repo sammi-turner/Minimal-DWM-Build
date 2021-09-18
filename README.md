@@ -27,7 +27,7 @@ sudo apt install libx11-dev libxft-dev libxinerama-dev lxappearance suckless-too
 ```
 sudo chown -R $USER
 ```
-4. Copy the 'DWM.desktop' file to /usr/share/xessions/ with the command line or the right-click menu your graphical file manager.
+4. Copy the 'DWM.desktop' file to /usr/share/xessions/ with the command line or the right-click menu in your graphical file manager.
 5. Build dwm with this command
 
 ```
