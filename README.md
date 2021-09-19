@@ -22,17 +22,25 @@ sudo apt install libx11-dev libxft-dev libxinerama-dev lxappearance suckless-too
 
 1. Clone or download this repo and cd into the folder.
 2. Set permissions on 'DWM.desktop' and 'Makefile' to allow execution using either the command line or the right-click menu in your graphical file manager.
-3. Change the owner of /usr/share/xsessions/ from root to the normal user with this command
+3. Change directory to
+
+```
+/usr/share/xsessions/ 
+```
+
+and switch ownership of that directory from root to the normal user by entering
 
 ```
 sudo chown -R $USER
 ```
+
 4. Copy the 'DWM.desktop' file to /usr/share/xessions/ with the command line or the right-click menu in your graphical file manager.
 5. Build dwm with this command
 
 ```
 sudo make clean install
 ```
+
 6. Log out of your session and when you log back in, select 'DWM Session' from the menu rather than your default desktop environment.
 
 ## Change themes and icons with lxappearance
