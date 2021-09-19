@@ -46,7 +46,9 @@ sudo make clean install
 
 ## Change themes and icons with lxappearance
 
-The default gtk and icon themes are ugly, but they can easily be changed. Type 'lxappearance' into dmenu to launch a graphical tool to change your settings. Personally, I use the materia-dark-compact theme and the papirus-dark icons.
+The default gtk and icon themes are ugly, but they can easily be changed. 
+
+Type 'lxappearance' into dmenu to launch a graphical tool to change your GTK theme and icons.
 
 ## Keybinds
 
@@ -60,7 +62,7 @@ To change the default keybinds, change the 'config.h' file, recompile dwm, log o
 
 Nah. I don't really need them.
 
-If you want to run external scripts, then you might be better off starting with the [official default build](https://dwm.suckless.org/) and customising with patches from there.
+If you want to run external scripts, then you might be better off starting with the [official default build](https://dwm.suckless.org/) and customising it with patches.
 
 ## What about Snazzy Window Manager?
 
