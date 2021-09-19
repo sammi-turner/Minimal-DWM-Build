@@ -41,7 +41,8 @@ sudo chown -R $USER
 sudo make clean install
 ```
 
-6. Log out of your session and when you log back in, select 'DWM Session' from the menu rather than your default desktop environment.
+6. Log out of your session.
+7. When you log back in, select 'DWM Session' from the menu rather than your default desktop environment.
 
 ## Change themes and icons with lxappearance
 
