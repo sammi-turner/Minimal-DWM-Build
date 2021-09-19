@@ -52,3 +52,7 @@ To change the default keybinds, change the 'config.h' file, recompile dwm, log o
 Nah. I don't really need them.
 
 If you want to run external scripts, then you might be better off starting with the [official default build](https://dwm.suckless.org/) and customising with patches from there.
+
+## What about Snazzy Window Manager?
+
+I am no longer maintaining that project, but there is still [a fork of it](https://github.com/Draco309/Snazzy-Window-Manager) on GitHub.
