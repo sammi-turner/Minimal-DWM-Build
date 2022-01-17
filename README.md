@@ -57,13 +57,3 @@ I have hard-coded some keybinds in config.h, which are shown in the 'cheat-sheet
 ## Changing your config.h
 
 To change the default keybinds, change the 'config.h' file, recompile dwm, log out, and then log back in.
-
-## No clock, calendar or volume control?
-
-Nah. I don't really need them.
-
-If you want to run external scripts, then you might be better off starting with the [official default build](https://dwm.suckless.org/) and customising it with patches.
-
-## What about Snazzy Window Manager?
-
-I am no longer maintaining that project, but there is still [a fork of it](https://github.com/Draco309/Snazzy-Window-Manager) on GitHub.
