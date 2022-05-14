@@ -46,14 +46,15 @@ with the command line or the right-click menu in your graphical file manager.
 sudo make clean install
 ```
 
-8. Log out of your session.
-9. When you log back in, select 'DWM Session' from the menu rather than your default desktop environment.
+8. Add picom and termite configs, such as the ones in my [Arcolinux-Dotfiles](https://github.com/sammi-turner/Arcolinux-Dotfiles) repo.
+9. Log out of your session.
+10. As you log back in, select 'DWM session' rather than 'Xfce Session'.
 
 ## Set the desktop background with Nitrogen.
 
-On your first log in, the bar will appear, but not your desktop background!
+On your first log in, the bar will appear, but not your desktop background.
 
-So for your next log in, set your wallpaper using nitrogen.
+So for the second log in, set your wallpaper using nitrogen.
 
 ## Change themes and icons with lxappearance
 
