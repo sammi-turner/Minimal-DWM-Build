@@ -2,6 +2,8 @@
 
 A very minimal [dwm](https://dwm.suckless.org/) set up to build from source.
 
+<img src="cyberpunk-rice.png" width="100%" height="auto" />
+
 ## By the way, I use Arch
 
 To install the dependencies in Arch-based distros, enter the following
