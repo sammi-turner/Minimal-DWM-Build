@@ -52,7 +52,7 @@ sudo make clean install
 
 ## Change themes and icons with lxappearance
 
-The default gtk and icon themes are ugly, but they can easily be changed. Type 'lxappearance' into dmenu to launch a graphical tool to change them.
+The default gtk and icon themes are ugly, but they can easily be changed. Type 'lxappearance' into dmenu and press enter to launch a graphical tool designed to change them.
 
 ## Keybinds
 
