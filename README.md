@@ -10,14 +10,6 @@ To install the dependencies in Arch-based distros, enter the following
 sudo pacman -S libx11 libxft libxinerama lxappearance dmenu firefox nitrogen picom
 ```
 
-## By the way, I'm not using Arch
-
-To install the dependencies in Ubuntu-based distros, enter the following
-
-```
-sudo apt install libx11-dev libxft-dev libxinerama-dev lxappearance suckless-tools dmenu firefox nitrogen picom
-```
-
 ## Cheat sheet
 
 The default keybinds are listed in 'keybinds.txt'.
