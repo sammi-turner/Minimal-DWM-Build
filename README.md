@@ -47,9 +47,7 @@ sudo make clean install
 7. Add picom and termite configs, such as the ones in my [Arcolinux-Dotfiles](https://github.com/sammi-turner/Arcolinux-Dotfiles) repo.
 8. Log out of your session.
 9. When log back in, select 'DWM session' rather than 'Xfce Session'.
-10. On your first log in, the bar will appear, but the log in screen will still be visible.
-11. On your second log in, open dmenu, type 'nitrogen' into the search bar, and press enter.
-12. Use the Nitrogen GUI to select your default wallpaper for future logins. 
+10. On your first log in, the bar will appear, but the log in screen will still be visible. Open dmenu, type 'nitrogen' into the search bar, and press enter. Use the Nitrogen GUI to select your default wallpaper for future logins.
 
 ## Change themes and icons with lxappearance
 
