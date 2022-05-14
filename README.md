@@ -17,8 +17,8 @@ The default keybinds are listed in 'keybinds.txt'.
 ## Build process if you ALREADY have the xfce4 desktop environment installed on your system
 
 1. Clone or download this repo and cd into the folder.
-2. Set permissions on 'DWM.desktop' and 'Makefile' to allow execution using either the command line or the right-click menu in your graphical file manager.
-3. Enter the commands
+2. Set permissions on 'DWM.desktop', 'dwm-session' and 'Makefile' to allow execution using either the command line or the right-click menu in your graphical file manager.
+3. Enter the command
 
 ```
 sudo chown -R $USER /usr/share/xsessions/
@@ -32,29 +32,24 @@ sudo chown -R $USER /usr/share/xsessions/
 
 with the command line or the right-click menu in your graphical file manager.
 
-5. Mark the 'dwm.session' file AS EXECUTABLE using either the command line or a graphical file manager.
-
-6. Log in as the root user with the 'su' command, then copy the 'dwm.session' file to
+5. Log in as the root user with the 'su' command, then copy the 'dwm.session' file to
 
 ```
 /usr/local/bin/ 
 ```
 
-7. As the normal user, build dwm with this command
+6. As the normal user, build dwm with this command
 
 ```
 sudo make clean install
 ```
 
-8. Add picom and termite configs, such as the ones in my [Arcolinux-Dotfiles](https://github.com/sammi-turner/Arcolinux-Dotfiles) repo.
-9. Log out of your session.
-10. As you log back in, select 'DWM session' rather than 'Xfce Session'.
-
-## Set the desktop background with Nitrogen.
-
-On your first log in, the bar will appear, but not your desktop background.
-
-So for the second log in, set your wallpaper using nitrogen.
+7. Add picom and termite configs, such as the ones in my [Arcolinux-Dotfiles](https://github.com/sammi-turner/Arcolinux-Dotfiles) repo.
+8. Log out of your session.
+9. When log back in, select 'DWM session' rather than 'Xfce Session'.
+10. On your first log in, the bar will appear, but the log in screen will still be visible.
+11. On your second log in, open dmenu, type 'nitrogen' into the search bar, and press enter.
+12. Use the Nitrogen GUI to select your default wallpaper for future logins. 
 
 ## Change themes and icons with lxappearance
 
@@ -64,7 +59,7 @@ Type 'lxappearance' into dmenu to launch a graphical tool to change your GTK the
 
 ## Keybinds
 
-I have hard-coded my default keybinds in config.h. The 'config.def.h' file shows the default settings.
+I have hard-coded my default keybinds in config.h. The 'config.def.h' is just a copy of those default settings.
 
 ## Changing your config.h
 
