@@ -19,14 +19,14 @@ The default keybinds are listed in 'keybinds.txt'.
 ## Build process if you ALREADY have the xfce4 desktop environment installed on your system
 
 1. Clone or download this repo and cd into the folder.
-2. Set permissions on 'DWM.desktop', 'dwm-session' and 'Makefile' to allow execution using either the command line or the right-click menu in your graphical file manager.
+2. Set permissions on 'dwm.desktop', 'dwm-session' and 'Makefile' to allow execution using either the command line or the right-click menu in your graphical file manager.
 3. Enter the command
 
 ```
 sudo chown -R $USER /usr/share/xsessions/
 ```
 
-4. Copy the 'DWM.desktop' file to
+4. Copy the 'dwm.desktop' file to
 
 ```
 /usr/share/xessions/ 
@@ -34,7 +34,7 @@ sudo chown -R $USER /usr/share/xsessions/
 
 with the command line or the right-click menu in your graphical file manager.
 
-5. Log in as the root user with the 'su' command, then copy the 'dwm.session' file to
+5. Log in as the root user with the 'su' command, then copy the 'dwm-session' file to
 
 ```
 /usr/local/bin/ 
