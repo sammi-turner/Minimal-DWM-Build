@@ -29,7 +29,7 @@ sudo chown -R $USER /usr/share/xsessions/
 4. Copy the 'dwm.desktop' file to
 
 ```
-/usr/share/xessions/ 
+/usr/share/xsessions/ 
 ```
 
 with the command line or the right-click menu in your graphical file manager.
