@@ -9,7 +9,7 @@ A very minimal [dwm](https://dwm.suckless.org/) set up to build from source.
 To install the dependencies in Arch-based distros, enter the following
 
 ```
-sudo pacman -S libx11 libxft libxinerama lxappearance dmenu termite firefox nitrogen picom
+sudo pacman -S libx11 libxft libxinerama lxappearance dmenu termite chromium nitrogen picom
 ```
 
 ## Cheat sheet
