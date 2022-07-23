@@ -29,7 +29,6 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       0,            0,           -1 },
 };
 
 /* layout(s) */
@@ -58,7 +57,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray4, "-sb", col_gray1, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "termite", NULL };
-static const char *firefoxcmd[] = { "/usr/bin/firefox",  NULL };
+static const char *chromecmd[] = { "/usr/bin/chromium",  NULL };
 static const char *thunarcmd[] = { "/usr/bin/thunar",  NULL };
 static const char *scrotcmd[] = { "/usr/bin/xfce4-screenshooter",  NULL };
 static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
@@ -77,7 +76,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,                       XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
-    { MODKEY,                       XK_b,      spawn,          {.v = firefoxcmd } },
+    { MODKEY,                       XK_b,      spawn,          {.v = chromecmd } },
     { MODKEY,                       XK_f,      spawn,          {.v = thunarcmd } },
     { MODKEY,                       XK_s,      spawn,          {.v = scrotcmd } },
 	{ MODKEY,                       XK_F9,     spawn,          {.v = upvol   } },
